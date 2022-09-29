@@ -20,7 +20,6 @@ $ Pkg install git
 
 $ git clone https://github.com/Kmb-id/kata2bos
 
-$ chmod x+ py2.py
 ```
 # Go to RUN :
 
@@ -31,7 +30,9 @@ $ chmod x+ py2.py
 ```
 $ cd kata2bos
 
-$ python2 py2.py
+$ ls
+
+$ python2 (Pilihan file yg akhirannya .py )
 ```
 ## ENJOY IN YOUR LIVE....NEVER GIVE UP
 ## KEEP SMILE 😁

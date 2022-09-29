@@ -1,4 +1,4 @@
-# kata2bos
+# KATA2BOS (EDISI GABUT)
 
 # programe Python 2
 
@@ -7,7 +7,7 @@
 <b>Kmb. Id (l4. Error)</b>
 ```
 # How to install :
-```
+
 $ apt-get update
 
 $ apt-get upgrade
@@ -23,6 +23,7 @@ $ git clone https://github.com/Kmb-id/kata2bos
 ```
 # Go to RUN :
 
+```
 👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
 ××××××××××××××××××××××××××××××××××××××××××××××××××
 ## * jika sudah terinstall semua *

@@ -22,11 +22,7 @@ $ git clone https://github.com/Kmb-id/kata2bos
 
 ```
 # Go to RUN :
-
-```
-👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
-××××××××××××××××××××××××××××××××××××××××××××××××××
-## * jika sudah terinstall semua *
+<b>jika sudah terinstall semua</b>
 
 ```
 $ cd kata2bos
@@ -34,6 +30,8 @@ $ cd kata2bos
 $ ls
 
 $ python2 (Pilihan file yg akhirannya .py )
+
+Contoh 👉 python2 1.py
 ```
 ## ENJOY IN YOUR LIVE....NEVER GIVE UP
 ## KEEP SMILE 😁

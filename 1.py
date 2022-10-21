@@ -1,7 +1,8 @@
 #!/usr/bin/python2
 # coding=utf-8
-# Haiyo.... ngapsin loe
-# By KMB. ID [ L4.ERROR ]
+# Haiyo.... ngapain loe !!!
+# By KMB. ID [ L4.ERRORS ]
+# copyright 2019 - 2022
 
 
 import os,sys,time,datetime,random,requests
@@ -45,7 +46,7 @@ def load():
 		
 
 ### PISTOL
-DOR = ("""\033[96m     _____________________________/\.\033[1;91mD \033[93mO \033[92mR\033[97m_\033[95mNEWS
+DOR = ("""\033[96m     _____________________________/\.\033[1;91mMO \033[93mTI \033[92mVA \033[95mSI
 \033[96m    / `---`___________----_______/--] \033[91m• • •\033[97m ░▒▓D
 \033[96m   /_|;;;;;;;;;|_______.:/ \033[93mPrograme \033[97mPython \033[94m2
 \033[96m    ), ---.( \( ) /\033[91m╔═══════════════════════════╗

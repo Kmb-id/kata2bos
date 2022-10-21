@@ -1,10 +1,8 @@
 #!/usr/bin/python2
 # coding=utf-8
-# Haiyo.... ngapsin loe
-# create 19 jan 2020
-# Update 11 agst 2021
+# Haiyo.... ngapain loe
 # By KMB. ID [ L4.ERRORS ]
-# copyright 2019 - 2020
+# copyright 2019 - 2022
 
 
 import os,sys,time,datetime,random

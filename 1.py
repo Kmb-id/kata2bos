@@ -14,16 +14,9 @@ except ImportError:
 	
 from requests.exceptions import ConnectionError
 
-# Dapatkan IP & lokasi
-try:
-    ip = requests.get('https://api.ipify.org').text.strip()
-    loc = requests.get(
-        'https://ipapi.co/{}/json/'.format(ip),
-        headers={'User-Agent': 'Mozilla/5.0'}
-    ).json().get('country_name', 'UNKNOWN').upper()
-except Exception as e:
-    ip = "0.0.0.0"
-    loc = "UNKNOWN"
+### cari IP dan lokasi
+ip = requests.get('https://api.ipify.org').text.strip()
+loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json().get('country_name', 'UNKNOWN').upper()
 
 ### EXIT ###
 def keluar():

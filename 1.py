@@ -200,4 +200,10 @@ def tutup():
 	
 
 if __name__ == '__main__':
-	sambut()
+    try:
+        # Mulai program
+        os.system('clear')
+        sambut()
+    except KeyboardInterrupt:
+        keluar()
+

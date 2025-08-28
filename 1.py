@@ -71,14 +71,15 @@ L4 = ("""\n\x1b[00m\x1b[1;96m   ╔═══════════════
    ║ \x1b[1;97m╩╝  ╩   ╚═╝ ╩   ╚═╝ ╚═╝ ╩ \x1b[93mkmb\x1b[1;96m║\x1b[1;47;91m   © \x1b[1;94mcopyright \x1b[1;95m2019   \x1b[0m\x1b[1;96m║
    ╚══════════════════════════════╩══════════════════════╝\x1b[0m""")
 
-##ANIMASI 3/2/1##
+### ANIMASI 3/2/1 ###
 def tik():
-    animation = '|3/-2\1|/'
+    animation = "|/-\\"
     for i in range(40):
-    	time.sleep(0.05)
-        sys.stdout.write('\r\033[1;36m[❓] \x1b[1;32mWaitt gan \x1b[1;97m' + animation[(i % len(animation))])
+        time.sleep(0.05)
+        sys.stdout.write(
+            '\r\033[1;36m[❓] \x1b[1;32mWaitt gan \x1b[1;97m' + animation[i % len(animation)]
+        )
         sys.stdout.flush()
-
 
 ###PEMBUKAAN##
 def sambut():
